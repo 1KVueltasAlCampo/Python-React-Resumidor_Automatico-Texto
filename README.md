@@ -3,6 +3,7 @@
 ## Descripción
 
 Esta es una aplicación web que permite resumir textos de entre 300 y 500 palabras. La aplicación está construida con una API en Flask para el backend y una aplicación en React para el frontend.
+Adicionalmente, contiene un Notebook de Jupyter en donde se explica a detalle el funcionamiento del algoritmo de resumen.
 
 ## Requisitos
 

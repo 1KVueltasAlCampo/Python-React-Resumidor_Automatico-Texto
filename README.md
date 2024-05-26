@@ -16,7 +16,7 @@ Nota: Para ejecutar todos estos comandos, se debe procurar usar una terminal con
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/resumidor-de-textos.git](https://github.com/1KVueltasAlCampo/Python-React-Resumidor_Automatico-Texto
+git clone https://github.com/1KVueltasAlCampo/Python-React-Resumidor_Automatico-Texto
 cd Python-React-Resumidor_Automatico-Texto
 ```
 

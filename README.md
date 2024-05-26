@@ -29,6 +29,11 @@ py -3 -m venv .venv
 .venv\Scripts\activate
 pip install flask
 pip install nltk
+python
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+exit()
 py app.py 
 ```
 ##### Para Linux o Mac
@@ -37,6 +42,11 @@ python3 -m venv .venv
 .venv\Scripts\activate
 pip install flask
 pip install nltk
+python
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+exit()
 py app.py 
 ```
 ### 2. Configurar el backend (Flask)
@@ -52,3 +62,15 @@ Si por defecto no se abre la pagina web de la aplicacion, acceder a ella mediant
 
 ### 4. Usar la aplicacion
 A continuacion, ingresar en el area de texto, aquello que se quiere resumir, al presionar el boton "Resumir" se obtendra el resultado.
+
+### 5. Usar despues de la primera ejecucion:
+Basta con usar
+#### Para el Backend
+```bash
+py app.py
+```
+#### Para el Frontend
+```bash
+cd front-resumidor
+npm start
+```
